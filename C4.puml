@@ -23,6 +23,9 @@ skinparam LegendBorderColor transparent
 skinparam LegendBackgroundColor transparent
 skinparam LegendFontColor $LEGEND_FONT_COLOR
 
+skinparam HyperlinkUnderline false
+skinparam HyperlinkColor #444444
+
 skinparam rectangle {
     StereotypeFontSize 12
     shadowing false
