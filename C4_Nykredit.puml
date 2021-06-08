@@ -20,6 +20,10 @@ UpdateElementStyle(external_system, $bgColor=$NK_EXISTING_COLOR, $fontColor=$NK_
 UpdateElementStyle(person, $bgColor=$NK_SYSTEM_COLOR, $fontColor=$NK_FG_COLOR, $borderColor=$NK_SYSTEM_BORDER_COLOR)
 UpdateElementStyle(system, $bgColor=$NK_SYSTEM_COLOR, $fontColor=$NK_FG_COLOR, $borderColor=$NK_SYSTEM_BORDER_COLOR)
 
+' URL styling
+skinparam HyperlinkUnderline false
+skinparam HyperlinkColor #444444
+
 ' Increase boundary thickness
 skinparam rectangle<<boundary>> {
     BorderThickness 3
